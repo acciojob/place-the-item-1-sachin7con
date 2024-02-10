@@ -1,2 +1,40 @@
 
-/* Your CSS Code here. */
+/*ONS Your CSS Code here. */
+.holder{
+	display:flex;
+	justify-content:space-between;
+	flex-direction:row;
+	font-size:50px;
+}
+p{
+	font-size:25px;
+}
+.item{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	font-size:50px;
+}
+#box1{
+	
+	width:100px;
+	height:100px;
+    background-color: green;
+	margin:2px;
+	
+}
+
+#box2{
+	
+	width:100px;
+	height:100px;
+    background-color: red;
+	margin:2px;
+}
+#box3{
+	
+	width:100px;
+	height:100px;
+    background-color: blue;
+	margin:2px;
+}
